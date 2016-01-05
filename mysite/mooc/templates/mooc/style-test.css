@@ -1,0 +1,36 @@
+h1 {
+	font-family: "Times New Roman";
+	font-size: 80px;
+	color: #7ca0ee;
+	height: 40px;
+}
+
+h2 {
+	font-family:"Times New Roman";
+	font-size= 5px;
+	background-color: #4169E1
+	height: 40px;
+	border-radius: 5px;
+	width: 75%
+
+}
+
+.github {
+	font-family:"Times New Roman";
+	font-size= 5px;
+	background-color: #4169E1;
+	height: 40px;
+	border-radius: 5px;
+	width: 75%
+
+
+}
+
+h4{
+	font-family:"Times New Roman";
+	font-size= 5px;
+	background-color: #f99921;
+	height: 40px;
+	border-radius: 5px;
+	width: 75%
+}

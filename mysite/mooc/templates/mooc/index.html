@@ -1,0 +1,73 @@
+<html>
+	<head> 
+		<title> Index Page </title>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'mooc/styles.css' %}" />
+		<div class="header">
+        	<div>
+        		{% load staticfiles %}
+				<img src="{% static "mooc/EPFL-logo.jpg" %}" style="width:150px;height:80px;" alt="My image"/>        
+			</div>
+			<div class="page-header">
+            	<center><h1><b> MOOC reach <b></h1></center>
+       		</div>  
+        </div>
+        
+	</head>
+	
+	 <body>
+	 	<center><div class="post-form">
+        	<form method="POST" >{% csrf_token %}
+        		<h3> Keyword:  <h3>
+        		{{ form.keyword }}
+        		<h3> Search for derivative terms: {{ form.derivative}}<h3>
+        		<button type="submit" class="save btn btn-default">Submit</button>
+        					
+   			</form>
+    	</div></center>
+        
+        	
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr width="75%">
+        <center><h2>Data mining social media<h2></center>
+
+    	<center><div id= "wrapper">
+			<div id="twitter">
+				<br>
+				{% load staticfiles %}
+				<img src="{% static "mooc/Twitter_logo.png" %}" style="width:120px;height:100px;" alt="My image"/>   
+				<p>Twitter is a very interesting social media to data mine. Indeed, people 
+				like to share about their feelings, opinions, daily life or any other facts. 
+				Hence harvesting all these tweets can be useful to check people’s opinion for 
+				what’s matter for us: MOOCs. <p>
+
+			</div>
+			<div id="so">
+			
+				{% load staticfiles %}
+				<img src="{% static "mooc/so.png" %}" style="width:220px;height:80px;" alt="My image"/>
+				<br><br><br><br><br>
+				<p>
+				The evolution of the number of questions in function of time about MOOCs can translate a real expansion of the MOOCs.
+				<p>   
+			</div>
+			<div id="github">
+				{% load staticfiles %}
+				<img src="{% static "mooc/GitHub.png" %}" style="width:150px;height:150px;" alt="My image"/> 
+				<p>Data mining Github is an excellent way to see with which languages people code the most when it comes to MOOCs.<p>
+			</div>
+    	</div></center>
+    </body>
+	
+</html>
+	
+
+
+
+
+
+	
