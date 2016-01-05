@@ -1,0 +1,31 @@
+h1 {
+	font-family: "Times New Roman";
+	font-size: 80px;
+	color: #7ca0ee;
+	height: 40px;
+}
+
+.twitter {
+	font-family:"Times New Roman";
+	background-color: #4169E1;
+	height: 40px;
+	border-radius: 5px;
+	width: 75%
+
+}
+
+.github {
+	font-family:"Times New Roman";
+	background-color: #A6B2C5;
+	height: 40px;
+	border-radius: 5px;
+	width: 75%
+}
+
+.so{
+	font-family:"Times New Roman";
+	background-color: #f99921;
+	height: 40px;
+	border-radius: 5px;
+	width: 75%
+}

@@ -1,0 +1,91 @@
+body {
+    background-image: url("RLC-nuit.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 380px;
+    /*background-attachment: fixed;*/
+	background-color: #f4f4f4/*rgba(225, 224, 228, 0.2)*/;
+	height: 400px;
+
+	
+
+}
+
+.header{
+	height: 400px;
+}
+
+
+#wrapper {
+  	width:100%;
+  	clear:both;
+}
+#twitter {
+  	background-color:white;
+  	width:250px;
+  	height: 300px;
+  	float:left;
+	margin: 70px;
+	border-radius: 5px;
+    border: 1px solid #7ca0ee;
+    padding: 10px;
+
+}
+#so {
+  	background-color:white;
+  	width:250px;
+	height: 300px;
+  	float: left;
+  	margin: 70px;
+  	border-radius: 5px;
+    border: 1px solid #7ca0ee;
+    padding: 10px;
+}
+#github {
+  	background-color:white;
+  	width:250px;
+  	height: 300px;
+  	float:right;
+  	margin: 70px;
+    border-radius: 5px;
+    border: 1px solid #7ca0ee;
+    padding: 10px; 
+
+
+}
+
+button[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+h3 {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    
+}
+
+h1 {
+	font-family: "Times New Roman";
+	font-size: 80px;
+	color: white;
+}
+
+h2 {
+	font-family: "Helvetica";
+	font-size: 60px;
+	color: #7ca0ee/*#7f7d9c*/;
+}
+
+p {
+	font-family:"Times New Roman";
+	font-size= 5px;
+}
+
+hr{
+	color: #7ca0ee;
+}
+
