@@ -31,7 +31,7 @@ import string
 import stackexchange
 from math import ceil
 
-BASE_DIRECTORY = ¨PATH¨
+
 
 def index(request):
     if request.method== 'POST':
@@ -57,7 +57,7 @@ def from_date_to_seconds(self):
     rfc_date= formatdate(time.mktime(self.timetuple()))
     return timegm(rfc822.parsedate(rfc_date))
 
-def binary_search(A, x, l, r): #We assume A is sorted
+def binary_search(A, x, l, r):
     mid= l+int(ceil((r-l)/2))
     if (l<=r):
         if x<A[mid]:
@@ -66,7 +66,7 @@ def binary_search(A, x, l, r): #We assume A is sorted
             return binary_search(A,x,mid+1, r)
         elif x== A[mid]:
             return mid
-    else: #if we don't find, we take the value right before in the array
+    else:
         temp= r
         r=l
         l=temp
@@ -74,14 +74,31 @@ def binary_search(A, x, l, r): #We assume A is sorted
 
 
 def results(request, keyword, derivative):
+    
+    # Enter base directory
+    BASE_DIRECTORY = " "
 
-#TWITTER
-
-    #Authentication
+    #Twitter Authentication
     CONSUMER_KEY = ' '
     CONSUMER_SECRET = ' '
     ACCESS_TOKEN_KEY = ' '
     ACCESS_TOKEN_SECRET = ' '
+
+    #Mapbox Authentication
+    GEO_APP_KEY= ' '
+
+    #Github Authentication
+    username = ' '
+    password = ' '
+    ACCESS_TOKEN = ' '
+
+    #Stack Overflow Authentication
+    API_KEY = ' '
+    API_CLIENT_ID = ' '
+    API_CLIENT_SECRET = ' '
+
+#TWITTER
+
     api = twitter.Api(consumer_key = CONSUMER_KEY,
                   consumer_secret = CONSUMER_SECRET,
                   access_token_key = ACCESS_TOKEN_KEY,
@@ -89,7 +106,7 @@ def results(request, keyword, derivative):
                   
     COUNT = 1000
 
-    statuses = api.GetSearch(keyword, count= COUNT) #Can't get more than 100 actually
+    statuses = api.GetSearch(keyword, count= COUNT)
     if derivative is True:
         if keyword[len(keyword)-1] != 's':
             statuses += api.GetSearch(keyword+'s', count= COUNT)
@@ -102,7 +119,7 @@ def results(request, keyword, derivative):
                                       
     #Getting the TZ
     time_zones = [s.user.time_zone for s in statuses]
-    tweets_per_tz=[] # tableau bi-dimensionnel: Country <-> nbr of tweets
+    tweets_per_tz=[]
     countries=[]
     number_tweets=[]
     for item in [time_zones]:
@@ -121,8 +138,7 @@ def results(request, keyword, derivative):
     for i in range(0, len(countries)):
         donnees.append([str(countries[i]), number_tweets[i]])
                                       
-                                      
-    ######
+
     # Ratio positive/negative tweets
     nb_pos_tw= len(positive_statuses)
     nb_neg_tw= len(negative_statuses)
@@ -132,11 +148,9 @@ def results(request, keyword, derivative):
     negative_tw_percentage= nb_neg_tw*100/total_nb_tw
 
     ratio_tweets= [['Attitude', 'Number of tweets'],[':)',nb_pos_tw], [':(', nb_neg_tw]]
-    
-    ###### MAP
+
     #Map
-    
-    GEO_APP_KEY= ' '
+
     g= geocoders.Bing(GEO_APP_KEY)
 
     geolocator = Nominatim()
@@ -180,11 +194,9 @@ def results(request, keyword, derivative):
             coordinates.append([location.latitude, location.longitude])
 
 
-
-    ######
     #WordCloud
     
-    en_statuses = api.GetSearch(keyword, count= COUNT, lang= 'en') #Can't get more than 100 actually
+    en_statuses = api.GetSearch(keyword, count= COUNT, lang= 'en')
     if derivative:
         if keyword[len(keyword)-1] != 's':
             statuses += api.GetSearch(keyword+'s', count= COUNT, lang= 'en')
@@ -202,8 +214,7 @@ def results(request, keyword, derivative):
                             ])
     
 
-    twitter_mask = imread(BASE_DIRECTORY+'twitter_mask.png', flatten=True)
-
+    twitter_mask = imread(BASE_DIRECTORY+'/mysite/mooc/static/mooc/twitter_mask.png', flatten=True)
     wordcloud = WordCloud(
                       font_path='/Users/Library/Fonts/Arial.ttf',
                       stopwords=STOPWORDS,
@@ -216,21 +227,15 @@ def results(request, keyword, derivative):
     plt.ioff()
     plt.imshow(wordcloud)
     plt.axis("off")
-    figure= plt.savefig("YOUR PATH TO DIRECTORY"+'/mooc-reach/mysite/mooc/static/mooc/my_twitter_wordcloud_2.png', dpi=300)
+    figure= plt.savefig(BASE_DIRECTORY+'/mysite/mooc/static/mooc/my_twitter_wordcloud_2.png', dpi=300)
     plt.cla()
     plt.clf()
 
-    #plt.show()
-    
-    #####
+
 
 #GITHUB
-    #Authentication
 
-    username = ' ' # GitHub username
-    password = ' ' # GitHub password
 
-    # Credentials will be transmitted over a secure SSL connection
     url = 'https://api.github.com/authorizations'
     note = 'Data Mining Github'
     post_data = {'scopes':['repo'],'note': note }
@@ -240,8 +245,7 @@ def results(request, keyword, derivative):
                              auth = (username, password),
                              data = json.dumps(post_data),
                              )
-    #Collecting Data
-    ACCESS_TOKEN = ' '
+
 
     PER_PAGE=100;
     LIMIT_REP= 1000;
@@ -269,8 +273,6 @@ def results(request, keyword, derivative):
     created_at.sort()
 
     
-
-    ######
     #Histogram
     plt.ioff()
     plt.ylabel('Number of repositories')
@@ -285,12 +287,12 @@ def results(request, keyword, derivative):
     plt.hist(created_in_seconds, 150)
     plt.axis([created_in_seconds[0], created_in_seconds[len(created_in_seconds)-1], 0, 30])
     plt.grid(True)
-    figure= plt.savefig("YOUR PATH TO DIRECTORY"+'/mooc-reach/mysite/mooc/static/mooc/hist.png', dpi=400)
+    figure= plt.savefig(BASE_DIRECTORY+'/mysite/mooc/static/mooc/hist.png', dpi=400)
     plt.cla()
     plt.clf()
 
 
-#Main prog.languages
+    #Main prog.languages
 
 
     languages_count= []
@@ -303,13 +305,9 @@ def results(request, keyword, derivative):
     for i in range(0, len(languages_count[0])):
         languages_list.append([str(languages_count[0][i][0]), languages_count[0][i][1]])
 
-######
 #STACK OVERFLOW
-#Authentication
 
-    API_KEY = ' '
-    API_CLIENT_ID = ' '
-    API_CLIENT_SECRET = ' '
+
     PAGESIZE = 100
     PAGE=1
 
@@ -359,12 +357,11 @@ def results(request, keyword, derivative):
         plt.title('Number of questions containing the keyword  \''+ keyword + ' \' created in function of time')
         plt.hist(dates, 50)
         plt.grid(True)
-        figure= plt.savefig("YOUR PATH TO DIRECTORY"+'/mooc-reach/Django/mysite/mooc/static/mooc/hist_so.png', dpi=400)
+        figure= plt.savefig(BASE_DIRECTORY+'/mysite/mooc/static/mooc/hist_so.png', dpi=400)
         plt.cla()
         plt.clf()
 
 ######
-
 
 
     positive_statuses=positive_statuses[0:10]
