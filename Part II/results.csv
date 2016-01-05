@@ -1,116 +1,224 @@
+Users,Emails,Repositories,Stars,Grades,Sessions
 vikrame,vikrame@gmail.com,vikrame/scala,0,['0'],['2016']
+Users,Emails,Repositories,Stars,Grades,Sessions
 daewon,blueiur@gmail.com,daewon/scala-http,8,"['99.975', '0', 'NULL']","['2012', '2016', '2013']"
-danielkorzekwa,daniel.korzekwa@gmail.com,danielkorzekwa/bayes-scala,140,['NULL'],['2012']
-lauris,lauris@discuss.lv,lauris/awesome-scala,2809,['92.0833'],['2014']
-lihaoyi,haoyi.sg@gmail.com,lihaoyi/Metascala,677,['0'],['2015']
-pathikrit,pathikritbhowmick@msn.com,pathikrit/scalgos,177,"['0', '0']","['2013', '2012']"
-arjanblokzijl,arjanblokzijl@gmail.com,arjanblokzijl/scala-conduits,46,['0'],['2012']
-jungyeon2,j2yoon@gmail.com,jungyeon2/Scala,0,['7.095'],['2016']
-mandubian,pascal.voitot.dev@gmail.com,mandubian/scala-xmlsoap-ersatz,38,['95'],['2012']
-nraychaudhuri,nraychaudhuri@gmail.com,nraychaudhuri/scalainaction,82,['0'],['2012']
-MasseGuillaume,masgui@gmail.com,MasseGuillaume/ScalaKata,124,"['0', '53.155', '62.1167', '0']","['2016', '2012', '2013', '2015']"
-jrudolph,johannes.rudolph@gmail.com,jrudolph/scala-world-2015,38,['65'],['2012']
-bangwu,wolfwubang@gmail.com,bangwu/scala,0,['0'],['2016']
-pbuda,pibuda@gmail.com,pbuda/scalawebsocket,15,['83.9375'],['2012']
-opoyair,opoyair@gmail.com,opoyair/Scala,0,"['NULL', '70.4025']","['2013', '2014']"
-vpachauri,devraj0109@gmail.com,vpachauri/scala,0,"['72.4875', '58.215']","['2016', '2012']"
-valyard,v@lent.in,valyard/scala-processing-examples,53,['0'],['2012']
-nau,anemish@gmail.com,nau/jscala,182,['0'],['2012']
-ouertani,ouertani@gmail.com,ouertani/akka-scala-spring,14,['97.9125'],['2014']
-puffnfresh,brian@brianmckenna.org,puffnfresh/wartremover,414,['0'],['2012']
-klymenko-ruslan,unnamzajazy@gmail.com,klymenko-ruslan/scala,0,"['0', 'NULL']","['2015', '2014']"
-jaceklaskowski,jacek@japila.pl,jaceklaskowski/scalania,114,"['79.75', '0', '0', '0']","['2013', '2016', '2012', '2015']"
-fractal,fracca@gmail.com,fractal/skeleton,68,"['100', '0']","['2013', '2012']"
-fcabestre,frederic.cabestre@free.fr,fcabestre/Scala-MQTT-client,31,['85'],['2012']
-reidwilbur,reid.wilbur@gmail.com,reidwilbur/scala,0,['NULL'],['2013']
-ftrianakast,ftrianakast@gmail.com,ftrianakast/scala,0,"['57.825', '0']","['2016', '2015']"
-sksamuel,sam@sksamuel.com,sksamuel/scalac-scapegoat-plugin,112,"['0', '0']","['2013', '2014']"
-sksamuel,sam@sksamuel.com,sksamuel/scrimage,288,"['0', '0']","['2013', '2014']"
-bretthoerner,brett@bretthoerner.com,bretthoerner/dropwizard-scala,74,['0'],['2012']
-kartikh26,khegde2@illinois.edu,kartikh26/Scala,0,"['0', '0']","['2014', '2016']"
-newca12,olivier.roland@edla.org,newca12/scala-netty-examples,53,['92.55'],['2012']
-julien-truffaut,truffaut.julien@gmail.com,julien-truffaut/Monocle,487,['98.875'],['2012']
-scalolli,basavarajkalloli@gmail.com,scalolli/Scala,1,['100'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+danielkorzekwa,daniel.korzekwa@gmail.com,danielkorzekwa/bayes-scala,141,['NULL'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 nraychaudhuri,nraychaudhuri@gmail.com,nraychaudhuri/scaladays2014,25,['0'],['2012']
-bijukunjummen,biju.kunjummen@gmail.com,bijukunjummen/spring-boot-scala-web,33,['100'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lihaoyi,haoyi.sg@gmail.com,lihaoyi/Metascala,682,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
+pathikrit,pathikritbhowmick@msn.com,pathikrit/scalgos,179,"['0', '0']","['2013', '2012']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+arjanblokzijl,arjanblokzijl@gmail.com,arjanblokzijl/scala-conduits,46,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+jungyeon2,j2yoon@gmail.com,jungyeon2/Scala,0,['7.095'],['2016']
+Users,Emails,Repositories,Stars,Grades,Sessions
+mandubian,pascal.voitot.dev@gmail.com,mandubian/scala-xmlsoap-ersatz,38,['95'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+nraychaudhuri,nraychaudhuri@gmail.com,nraychaudhuri/scalainaction,83,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+MasseGuillaume,masgui@gmail.com,MasseGuillaume/ScalaKata,124,"['0', '53.155', '62.1167', '0']","['2016', '2012', '2013', '2015']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+jrudolph,johannes.rudolph@gmail.com,jrudolph/scala-world-2015,38,['65'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+bangwu,wolfwubang@gmail.com,bangwu/scala,0,['0'],['2016']
+Users,Emails,Repositories,Stars,Grades,Sessions
+pbuda,pibuda@gmail.com,pbuda/scalawebsocket,15,['83.9375'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+opoyair,opoyair@gmail.com,opoyair/Scala,0,"['NULL', '70.4025']","['2013', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+valyard,v@lent.in,valyard/scala-processing-examples,53,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+nau,anemish@gmail.com,nau/jscala,182,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+ouertani,ouertani@gmail.com,ouertani/akka-scala-spring,14,['97.9125'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
+puffnfresh,brian@brianmckenna.org,puffnfresh/wartremover,414,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+klymenko-ruslan,unnamzajazy@gmail.com,klymenko-ruslan/scala,0,"['0', 'NULL']","['2015', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+upeter,upeter@xebia.com,upeter/Scala-Spring-Integration,36,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+jaceklaskowski,jacek@japila.pl,jaceklaskowski/scalania,116,"['79.75', '0', '0', '0']","['2013', '2016', '2012', '2015']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+fractal,fracca@gmail.com,fractal/skeleton,68,"['100', '0']","['2013', '2012']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+fcabestre,frederic.cabestre@free.fr,fcabestre/Scala-MQTT-client,32,['85'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+sksamuel,sam@sksamuel.com,sksamuel/scrimage,298,"['0', '0']","['2013', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+bretthoerner,brett@bretthoerner.com,bretthoerner/dropwizard-scala,76,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+kartikh26,khegde2@illinois.edu,kartikh26/Scala,0,"['0', '0']","['2014', '2016']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+newca12,olivier.roland@edla.org,newca12/scala-netty-examples,52,['92.55'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+julien-truffaut,truffaut.julien@gmail.com,julien-truffaut/Monocle,495,['98.875'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+scalolli,basavarajkalloli@gmail.com,scalolli/Scala,1,['100'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lauris,lauris@discuss.lv,lauris/awesome-scala,2887,['92.0833'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
+bijukunjummen,biju.kunjummen@gmail.com,bijukunjummen/spring-boot-scala-web,34,['100'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 hrkipp,hrkippenhan@gmail.com,hrkipp/Scala,0,['0'],['2013']
-seratch,seratch@gmail.com,seratch/AWScala,317,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+seratch,seratch@gmail.com,seratch/AWScala,320,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 debasishg,dghosh@acm.org,debasishg/sjson,224,['100'],['2012']
-lihaoyi,haoyi.sg@gmail.com,lihaoyi/workbench,110,['0'],['2015']
-lihaoyi,haoyi.sg@gmail.com,lihaoyi/scala.rx,577,['0'],['2015']
-poweld,poweld@gmail.com,poweld/hipchat-scala,14,['99.95'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lihaoyi,haoyi.sg@gmail.com,lihaoyi/workbench,109,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lihaoyi,haoyi.sg@gmail.com,lihaoyi/scala.rx,584,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 abhishekShukla,abhishek.shukla.ravi@gmail.com,abhishekShukla/Scala,0,['0'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
 yiwang,e@yi-wang.me,yiwang/scala,1,['63.04'],['2013']
+Users,Emails,Repositories,Stars,Grades,Sessions
 sjrd,sjrdoeraene@gmail.com,sjrd/scala-js-example-app,128,"['0', '0']","['2013', '2016']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 vspy,victorbilyk@gmail.com,vspy/scala-mustache,19,['100'],['2014']
-alexarchambault,alexandre.archambault@gmail.com,alexarchambault/jupyter-scala,155,['100'],['2013']
+Users,Emails,Repositories,Stars,Grades,Sessions
 nishantmehta,nishantmehta.n@gmail.com,nishantmehta/scala,0,['0'],['2016']
-RayRoestenburg,raymond.roestenburg@gmail.com,RayRoestenburg/scala-io-exercise-1,69,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+RayRoestenburg,raymond.roestenburg@gmail.com,RayRoestenburg/scala-io-exercise-1,70,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 nraychaudhuri,nraychaudhuri@gmail.com,nraychaudhuri/scala-webmachine,32,['0'],['2012']
-sjrd,sjrdoeraene@gmail.com,sjrd/scala-js-ts-importer,71,"['0', '0']","['2013', '2016']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+sjrd,sjrdoeraene@gmail.com,sjrd/scala-js-ts-importer,75,"['0', '0']","['2013', '2016']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 channingwalton,channingwalton@mac.com,channingwalton/scala-contracts,25,['100'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 sjrd,sjrdoeraene@gmail.com,sjrd/scala-js-actors,83,"['0', '0']","['2013', '2016']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 tonyskn,tonyskn@gmail.com,tonyskn/coursera-scala,18,['94.985'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 aconbere,aconbere@gmail.com,aconbere/Scala-IRC,16,['100'],['2012']
-lihaoyi,haoyi.sg@gmail.com,lihaoyi/scala-js-games,57,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lihaoyi,haoyi.sg@gmail.com,lihaoyi/scala-js-games,56,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 eastpavillion,lorrainemei@gmail.com,eastpavillion/Scala,0,"['0', '99']","['2014', '2012']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 xiaoli-chen,haier.cxl@gmail.com,xiaoli-chen/Scala,0,['36.5625'],['2016']
+Users,Emails,Repositories,Stars,Grades,Sessions
 Centaur,43284683@qq.com,Centaur/scalaconsole,34,['100'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 jinntrance,jinntrance@gmail.com,jinntrance/douban-scala,29,"['100', '32.8167']","['2014', '2013']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 sriramkasthuri,sriram.kasthuriuk@gmail.com,sriramkasthuri/Scala,0,['0'],['2016']
-write2munish,write2munish@gmail.com,write2munish/Akka-Essentials,443,['11.35'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+mandubian,pascal.voitot.dev@gmail.com,mandubian/scalaeff,32,['95'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+write2munish,write2munish@gmail.com,write2munish/Akka-Essentials,451,['11.35'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 bmjames,bmjames@gmail.com,bmjames/scala-optparse-applicative,41,['0'],['2013']
+Users,Emails,Repositories,Stars,Grades,Sessions
 blair,blair@orcaware.com,blair/scala-migrations,16,['100'],['2012']
-Sergey80,ses.box@gmail.com,Sergey80/scala-samples,65,"['98.8125', '9.5', '2.015']","['2014', '2013', '2012']"
-etorreborre,etorreborre@yahoo.com,etorreborre/specs2,483,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+Sergey80,ses.box@gmail.com,Sergey80/scala-samples,66,"['98.8125', '9.5', '2.015']","['2014', '2013', '2012']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+etorreborre,etorreborre@yahoo.com,etorreborre/specs2,485,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 Mnw2212,mayuresh2212@gmail.com,Mnw2212/Scala,0,['0'],['2015']
-lihaoyi,haoyi.sg@gmail.com,lihaoyi/Scalatex,171,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lihaoyi,haoyi.sg@gmail.com,lihaoyi/Scalatex,170,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 netoneko,netoneko@gmail.com,netoneko/scala,0,"['0', '0']","['2012', '2013']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 PatKeeler,keelerpl@gmail.com,PatKeeler/Scala,0,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 DaniTheLion,dtl.117@gmail.com,DaniTheLion/Scala,0,['76.2125'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
 fayimora,fayi@fayimora.com,fayimora/basic-scala-project.g8,12,"['0', '24.85', '94.5125']","['2012', '2013', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 fmueller,felix.mueller.berlin@googlemail.com,fmueller/sonar-scala,0,"['NULL', '83.3333']","['2012', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 gabrielacorrea,gabriela01sc@gmail.com,gabrielacorrea/Scala,0,"['0', '0']","['2015', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 GrahamLea,graham@grahamlea.com,GrahamLea/scala-spring-hibernate-maven-webapp,124,['100'],['2015']
-msilb,me@msilb.com,msilb/scalanda,8,['0'],['2012']
-milessabin,miles@milessabin.com,milessabin/shapeless,1332,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+msilb,me@msilb.com,msilb/scalanda,9,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+milessabin,miles@milessabin.com,milessabin/shapeless,1352,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 vigoo,daniel.vigovszky@gmail.com,vigoo/scalafxml,36,['100'],['2012']
-earldouglas,james@earldouglas.com,earldouglas/xsbt-web-plugin,301,['98.25'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+earldouglas,james@earldouglas.com,earldouglas/xsbt-web-plugin,303,['98.25'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 MasseGuillaume,masgui@gmail.com,MasseGuillaume/Scala,0,"['0', '53.155', '62.1167', '0']","['2016', '2012', '2013', '2015']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 kaushik88,kaushik.me88@gmail.com,kaushik88/Scala,1,['83.3333'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
+subhan,subhan.py@gmail.com,subhan/Scala,0,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 notyy,notyycn@gmail.com,notyy/scalaSnippet,14,['97.4875'],['2012']
-gilbertw1,gilbertw1@gmail.com,gilbertw1/slack-scala-client,23,"['100', '0']","['2013', '2012']"
-nikore,matt@nikore.net,nikore/scala-etcd,16,['0'],['2012']
-jrudolph,johannes.rudolph@gmail.com,jrudolph/akka-http-scala-js-websocket-chat,135,['65'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+gilbertw1,gilbertw1@gmail.com,gilbertw1/slack-scala-client,25,"['100', '0']","['2013', '2012']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+nikore,matt@nikore.net,nikore/scala-etcd,17,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+jrudolph,johannes.rudolph@gmail.com,jrudolph/akka-http-scala-js-websocket-chat,146,['65'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 darkjh,ju.han.felix@gmail.com,darkjh/scalaflow,32,['37.325'],['2012']
-yankay,yankaycom@gmail.com,yankay/scala-tour,360,['NULL'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+yankay,yankaycom@gmail.com,yankay/scala-tour,363,['NULL'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 regb,regwblanc@gmail.com,regb/scala-smtlib,11,"['NULL', '0', '0', '0']","['2012', '2013', '2016', '2013']"
-ktoso,konrad.malawski@java.pl,ktoso/scala-rainbow,29,"['0', '0']","['2012', '2014']"
-garyaiki,agilej2ee@earthlink.net,garyaiki/Scala-Algorithms,62,['100'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
+ktoso,konrad.malawski@java.pl,ktoso/scala-rainbow,32,"['0', '0']","['2012', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+garyaiki,agilej2ee@earthlink.net,garyaiki/Scala-Algorithms,64,['100'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
 PrathikPuthran,prathik.puthran@gmail.com,PrathikPuthran/Scala,0,"['0', '92.6', 'NULL']","['2016', '2014', '2013']"
-lihaoyi,haoyi.sg@gmail.com,lihaoyi/scala-js-fiddle,66,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lihaoyi,haoyi.sg@gmail.com,lihaoyi/scala-js-fiddle,65,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 msingleton,mike.c.singleton@gmail.com,msingleton/Scala-Airbrake,12,['20'],['2012']
-waterwagen,waterwagen@gmail.com,waterwagen/Scala,0,['0'],['2012']
-fwbrasil,fwbrasil@gmail.com,fwbrasil/activate,281,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+fwbrasil,fwbrasil@gmail.com,fwbrasil/activate,284,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 lakmalsilva,lakmal_silva@yahoo.com,lakmalsilva/scala,1,"['0', '90']","['2014', '2012']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 rhasan,rakeb04@gmail.com,rhasan/scala,0,['0'],['2015']
-rafanoronha,rafanoronha@gmail.com,rafanoronha/scala-poker,8,['100'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
+rafanoronha,rafanoronha@gmail.com,rafanoronha/scala-poker,10,['100'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
 cryptoki,sh@java-club.de,cryptoki/scala,4,['0'],['2016']
-tuncayOzkan,tuncayozkan90@hotmail.com,tuncayOzkan/Scala,0,['0'],['2015']
-lihaoyi,haoyi.sg@gmail.com,lihaoyi/scalatags,355,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
+lihaoyi,haoyi.sg@gmail.com,lihaoyi/scalatags,357,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 chrsan,chrsan@gmail.com,chrsan/css-selectors-scala,22,['100'],['2012']
-earldouglas,james@earldouglas.com,earldouglas/scala-scratchpad,80,['98.25'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+earldouglas,james@earldouglas.com,earldouglas/scala-scratchpad,81,['98.25'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 lukerandall,luke.randall@gmail.com,lukerandall/scala,1,"['0', '0']","['2013', '2012']"
-earldouglas,james@earldouglas.com,earldouglas/scala-cats,46,['98.25'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
+earldouglas,james@earldouglas.com,earldouglas/scala-cats,47,['98.25'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 samsonasik,samsonasik@gmail.com,samsonasik/coursera-scala,0,['87.47'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
 owainlewis,owain@owainlewis.com,owainlewis/scala-ftp,8,"['0', '0', '0']","['2013', '2016', '2012']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 lihaoyi,haoyi.sg@gmail.com,lihaoyi/hands-on-scala-js,66,['0'],['2015']
+Users,Emails,Repositories,Stars,Grades,Sessions
 debasishg,dghosh@acm.org,debasishg/scala-redis-nb,171,['100'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 ktoso,konrad.malawski@java.pl,ktoso/scala-types-of-types,65,"['0', '0']","['2012', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 kaeawc,jason.d.pearson@gmail.com,kaeawc/scala-logo,23,"['0', '0', '0']","['2013', '2012', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
+wbinglee,wbinglee@gmail.com,wbinglee/scala,0,"['90', '0', '0']","['2016', '2015', '2014']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 ilomas,ignacio.lomas@gmail.com,ilomas/scala,0,"['0', '94.2067', 'NULL']","['2015', '2014', '2013']"
+Users,Emails,Repositories,Stars,Grades,Sessions
 leonkunert,info@leonkunert.de,leonkunert/Scala,0,['83.3333'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
 kouphax,james@yobriefca.se,kouphax/scala-sampleapp,21,['0'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 kbaldyga,kbaldyga@gmail.com,kbaldyga/scala,0,['62.9667'],['2014']
+Users,Emails,Repositories,Stars,Grades,Sessions
 lancelet,j.s.merritt@gmail.com,lancelet/scalasignal,12,['74.0375'],['2012']
+Users,Emails,Repositories,Stars,Grades,Sessions
 froden,frode@nerbraten.no,froden/scalakurs,6,['100'],['2012']
