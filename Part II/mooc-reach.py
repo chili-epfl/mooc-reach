@@ -3,10 +3,7 @@ import requests
 from collections import defaultdict
 from collections import Counter
 from github import Github
-<<<<<<< HEAD
 import matplotlib.pyplot as plt
-=======
->>>>>>> 47d2c96aa99fb6c554ecc1f8388a9d970ff8170c
 import statistics
 
 username = ' ' # Your GitHub username
@@ -182,10 +179,7 @@ for i in range(0, len(sorted_dict)):
     sorted_grades.append(sorted_dict[i][0])
     sorted_stars.append(sorted_dict[i][1])
 
-<<<<<<< HEAD
-=======
-import matplotlib.pyplot as plt
->>>>>>> 47d2c96aa99fb6c554ecc1f8388a9d970ff8170c
+
 plt.ylabel('Stars')
 plt.xlabel('Grades')
 plt.plot(sorted_grades, sorted_stars )
@@ -195,13 +189,9 @@ plt.show()
 
 
 ##### Statistics
-<<<<<<< HEAD
 group1= []
 group2= []
-=======
-count1=0.0
-count2=0.0
->>>>>>> 47d2c96aa99fb6c554ecc1f8388a9d970ff8170c
+
 
 for i in range(0, len(dict_users_from_full_names_grades)):
     grade= dict_users_from_full_names_grades.values()[i]
@@ -209,7 +199,6 @@ for i in range(0, len(dict_users_from_full_names_grades)):
     for g in grade:
         if g=='NULL':
             g=0
-<<<<<<< HEAD
         if stars>20:
             group1.append(float(g))
         else:
@@ -222,19 +211,7 @@ print "Average grade of users whose repositories have less than 20 stars"sum(gro
 print "Standard deviation: ",statistics.stdev(group2)
 
 print "Student's t-test: ",scipy.stats.ttest_ind(group1,group2, equal_var= False,axis=0)
-=======
-        if stars>100:
-            tab1.append(float(g))
-        else:
-            tab2.append(float(g))
 
-print "Average grade of users whose repositories have more than 100 stars",sum(tab1)/len(tab1)
-print "Standard deviation",statistics.stdev(tab1)
-
-print "Average grade of users whose repositories have less than 100 stars"sum(tab2)/len(tab2)
-print "Standard deviation",statistics.stdev(tab2)
-
->>>>>>> 47d2c96aa99fb6c554ecc1f8388a9d970ff8170c
 
 
 
